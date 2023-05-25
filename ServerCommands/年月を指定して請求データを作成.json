@@ -1,0 +1,434 @@
+{
+  "Enabled": true,
+  "Triggers": [
+    {
+      "$type": "Forguncy.ServerCommands.Models.PostRequestTrigger, ServerDesignerCommon",
+      "Permission": {
+        "AllowRoles": [
+          "FGC_Anonymous"
+        ]
+      },
+      "Parameters": [
+        {
+          "Name": "請求年",
+          "TestData": "2020"
+        },
+        {
+          "Name": "請求月",
+          "TestData": "7"
+        }
+      ],
+      "InvokeTriggerTestData": {
+        "UserName": "Administrator"
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "$type": "Forguncy.Model.ServerTransactionCommand, ServerDesignerCommon",
+      "CommandList": [
+        {
+          "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+          "TableName": "請求",
+          "UpdateType": "delete",
+          "ShowConfirm": true,
+          "ConfirmText": "本当に削除してもよろしいですか？",
+          "RowsToUpdate": 1,
+          "RowsToUpdateCondition": {
+            "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+            "ColumnBindingInfo": {
+              "TableName": "請求",
+              "ColumnName": "請求年月"
+            },
+            "Value": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=DATE(請求年,請求月,1)"
+            }
+          },
+          "UpdateValues": []
+        },
+        {
+          "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+          "ParameterName": "当月の受注データ",
+          "TableValue": {
+            "TableName": "受注",
+            "BindingInfos": [
+              {
+                "BindingInfo": {
+                  "TableName": "受注",
+                  "ColumnName": "ID"
+                },
+                "ColumnName": "ID"
+              },
+              {
+                "BindingInfo": {
+                  "TableName": "受注",
+                  "ColumnName": "請求年月"
+                },
+                "ColumnName": "請求年月"
+              },
+              {
+                "BindingInfo": {
+                  "TableName": "受注",
+                  "ColumnName": "取引先責任者ID",
+                  "RelationBinding": {
+                    "RelatedTable": "取引先責任者",
+                    "RelatedColumn": "ID",
+                    "DisplayColumn": "取引先名"
+                  }
+                },
+                "ColumnName": "取引先名"
+              },
+              {
+                "BindingInfo": {
+                  "TableName": "受注",
+                  "ColumnName": "取引先責任者ID",
+                  "RelationBinding": {
+                    "RelatedTable": "取引先責任者",
+                    "RelatedColumn": "ID",
+                    "DisplayColumn": "姓"
+                  }
+                },
+                "ColumnName": "姓"
+              },
+              {
+                "BindingInfo": {
+                  "TableName": "受注",
+                  "ColumnName": "取引先責任者ID",
+                  "RelationBinding": {
+                    "RelatedTable": "取引先責任者",
+                    "RelatedColumn": "ID",
+                    "DisplayColumn": "名"
+                  }
+                },
+                "ColumnName": "名"
+              },
+              {
+                "BindingInfo": {
+                  "TableName": "受注",
+                  "ColumnName": "取引先責任者ID",
+                  "RelationBinding": {
+                    "RelatedTable": "取引先責任者",
+                    "RelatedColumn": "ID",
+                    "DisplayColumn": "メール"
+                  }
+                },
+                "ColumnName": "メール"
+              }
+            ],
+            "SqlCondition": {
+              "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+              "Condition1": {
+                "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                "ColumnBindingInfo": {
+                  "TableName": "受注",
+                  "ColumnName": "請求年月",
+                  "AttachType": {
+                    "$type": "ForguncyDataAccess.DateColumnAttachObj, ForguncyDataAccess",
+                    "ColumnAttachType": 1
+                  }
+                },
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=請求年"
+                }
+              },
+              "Condition2": {
+                "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                "ColumnBindingInfo": {
+                  "TableName": "受注",
+                  "ColumnName": "請求年月",
+                  "AttachType": {
+                    "$type": "ForguncyDataAccess.DateColumnAttachObj, ForguncyDataAccess",
+                    "ColumnAttachType": 4
+                  }
+                },
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=請求月"
+                }
+              }
+            }
+          },
+          "ID": "356a1403f9bf462fb598b557b51902f1"
+        },
+        {
+          "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+          "ParameterName": "請求カウント",
+          "ParameterValue": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=1"
+          },
+          "ID": "27e963648a7348a59db54bf71e3a3849"
+        },
+        {
+          "$type": "Forguncy.Model.LoopCommand, ServerDesignerCommon",
+          "LoopInfo": {
+            "$type": "Forguncy.Model.CountLoopInfo, ServerDesignerCommon",
+            "LoopCount": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=当月の受注データ"
+            },
+            "LoopItemParamName": "受注Item"
+          },
+          "CommandList": [
+            {
+              "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+              "ParameterName": "同一請求レコードの数",
+              "TableValue": {
+                "TableName": "請求",
+                "TableValueType": 3,
+                "SqlCondition": {
+                  "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+                  "Condition1": {
+                    "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                    "ColumnBindingInfo": {
+                      "TableName": "請求",
+                      "ColumnName": "請求年月"
+                    },
+                    "Value": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=受注Item.請求年月"
+                    }
+                  },
+                  "Condition2": {
+                    "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                    "ColumnBindingInfo": {
+                      "TableName": "請求",
+                      "ColumnName": "請求先会社名"
+                    },
+                    "Value": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=受注Item.取引先名"
+                    }
+                  }
+                }
+              },
+              "ID": "cd031f12e4884c19a3929eb1d5b16bfd",
+              "Comments": "請求テーブルから同じ請求年月と顧客のレコード数を取得する"
+            },
+            {
+              "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+              "ConditionAndCommandPairList": [
+                {
+                  "Condition": {
+                    "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                    "param": {
+                      "$type": "Forguncy.Model.IfConditionServerSiteParam, ServerDesignerCommon",
+                      "ParamObject": {
+                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                        "SerializeProperty": "=同一請求レコードの数"
+                      }
+                    },
+                    "value": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=0"
+                    },
+                    "compareType": 5
+                  },
+                  "CommandList": [
+                    {
+                      "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+                      "TableName": "請求",
+                      "UpdateType": "add",
+                      "ShowConfirm": false,
+                      "ConfirmText": "本当に追加してもよろしいですか？",
+                      "UpdateValues": [
+                        {
+                          "ColumnName": "請求CD",
+                          "Value": {
+                            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                            "SerializeProperty": "=TEXT(請求カウント,\"000\")&\"-\"&YEAR(受注Item.請求年月)&TEXT(MONTH(受注Item.請求年月),\"00\")"
+                          }
+                        },
+                        {
+                          "ColumnName": "請求年月",
+                          "Value": {
+                            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                            "SerializeProperty": "=受注Item.請求年月"
+                          }
+                        },
+                        {
+                          "ColumnName": "請求先会社名",
+                          "Value": {
+                            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                            "SerializeProperty": "=受注Item.取引先名"
+                          }
+                        },
+                        {
+                          "ColumnName": "請求先担当者名",
+                          "Value": {
+                            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                            "SerializeProperty": "=受注Item.姓&\" \"&受注Item.名"
+                          }
+                        },
+                        {
+                          "ColumnName": "請求先メールアドレス",
+                          "Value": {
+                            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                            "SerializeProperty": "=受注Item.メール"
+                          }
+                        },
+                        {
+                          "ColumnName": "請求日",
+                          "Value": {
+                            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                            "SerializeProperty": "=TODAY()"
+                          }
+                        }
+                      ],
+                      "ParamNameToSaveNewRowValue": "親レコード"
+                    },
+                    {
+                      "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+                      "ParameterName": "請求カウント",
+                      "ParameterValue": {
+                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                        "SerializeProperty": "=請求カウント+1"
+                      },
+                      "ID": "3f479a7f13c846138eb56faf7ae99e54",
+                      "Comments": "請求テーブルにレコードを追加したので請求CDをインクリメントする"
+                    }
+                  ],
+                  "Comments": "請求テーブルに同じ請求年月と顧客が存在していなければレコードを追加する",
+                  "ID": "23b6971a-68fc-4dd5-89e3-aac60b5bacd9"
+                }
+              ]
+            },
+            {
+              "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+              "ParameterName": "受注明細データ",
+              "TableValue": {
+                "TableName": "受注明細",
+                "BindingInfos": [
+                  {
+                    "BindingInfo": {
+                      "TableName": "受注明細",
+                      "ColumnName": "受注ID"
+                    },
+                    "ColumnName": "受注ID"
+                  },
+                  {
+                    "BindingInfo": {
+                      "TableName": "受注明細",
+                      "ColumnName": "商品ID",
+                      "RelationBinding": {
+                        "RelatedTable": "商品",
+                        "RelatedColumn": "ID",
+                        "DisplayColumn": "商品名"
+                      }
+                    },
+                    "ColumnName": "商品名"
+                  },
+                  {
+                    "BindingInfo": {
+                      "TableName": "受注明細",
+                      "ColumnName": "数量"
+                    },
+                    "ColumnName": "数量"
+                  },
+                  {
+                    "BindingInfo": {
+                      "TableName": "受注明細",
+                      "ColumnName": "割引済み単価"
+                    },
+                    "ColumnName": "割引済み単価"
+                  },
+                  {
+                    "BindingInfo": {
+                      "TableName": "受注明細",
+                      "ColumnName": "商品ID",
+                      "RelationBinding": {
+                        "RelatedTable": "商品",
+                        "RelatedColumn": "ID",
+                        "DisplayColumn": "税率"
+                      }
+                    },
+                    "ColumnName": "税率"
+                  }
+                ],
+                "SqlCondition": {
+                  "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                  "ColumnBindingInfo": {
+                    "TableName": "受注明細",
+                    "ColumnName": "受注ID"
+                  },
+                  "Value": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=受注Item.ID"
+                  }
+                }
+              },
+              "ID": "25af16712e904ecb8bff3a3c09d0e6e1"
+            },
+            {
+              "$type": "Forguncy.Model.LoopCommand, ServerDesignerCommon",
+              "LoopInfo": {
+                "$type": "Forguncy.Model.CountLoopInfo, ServerDesignerCommon",
+                "LoopCount": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=受注明細データ"
+                },
+                "LoopItemParamName": "明細Item"
+              },
+              "CommandList": [
+                {
+                  "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+                  "TableName": "請求明細",
+                  "UpdateType": "add",
+                  "ShowConfirm": false,
+                  "ConfirmText": "本当に追加してもよろしいですか？",
+                  "UpdateValues": [
+                    {
+                      "ColumnName": "受注ID",
+                      "Value": {
+                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                        "SerializeProperty": "=明細Item.受注ID"
+                      }
+                    },
+                    {
+                      "ColumnName": "商品",
+                      "Value": {
+                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                        "SerializeProperty": "=明細Item.商品名"
+                      }
+                    },
+                    {
+                      "ColumnName": "数量",
+                      "Value": {
+                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                        "SerializeProperty": "=明細Item.数量"
+                      }
+                    },
+                    {
+                      "ColumnName": "単価",
+                      "Value": {
+                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                        "SerializeProperty": "=明細Item.割引済み単価"
+                      }
+                    },
+                    {
+                      "ColumnName": "税率",
+                      "Value": {
+                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                        "SerializeProperty": "=明細Item.税率"
+                      }
+                    },
+                    {
+                      "ColumnName": "請求CD",
+                      "Value": {
+                        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                        "SerializeProperty": "=親レコード.請求CD"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "Name": "年月を指定して請求データを作成"
+}

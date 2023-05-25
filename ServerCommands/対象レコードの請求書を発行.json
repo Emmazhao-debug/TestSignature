@@ -1,0 +1,167 @@
+{
+  "Enabled": true,
+  "Triggers": [
+    {
+      "$type": "Forguncy.ServerCommands.Models.PostRequestTrigger, ServerDesignerCommon",
+      "Permission": {
+        "AllowRoles": [
+          "FGC_Anonymous"
+        ]
+      },
+      "Parameters": [
+        {
+          "Type": 1,
+          "ArrayParamItems": [
+            {
+              "Name": "請求CD"
+            },
+            {
+              "Name": "会社名"
+            },
+            {
+              "Name": "氏名"
+            },
+            {
+              "Name": "メールアドレス"
+            }
+          ],
+          "PrimaryKeys": [
+            "ID"
+          ],
+          "Name": "対象レコード"
+        },
+        {
+          "Name": "メール送信"
+        }
+      ],
+      "InvokeTriggerTestData": {
+        "UserName": "Administrator"
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+      "ParameterName": "エクスポート用一時フォルダー",
+      "ParameterValue": {
+        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+        "SerializeProperty": "=\"C:\\Users\\Public\\Documents\\\"&INT(RAND()*1000000)"
+      },
+      "ID": "ba806f6228c34d1ba517c81fb13f5aca"
+    },
+    {
+      "$type": "Forguncy.Model.LoopCommand, ServerDesignerCommon",
+      "LoopInfo": {
+        "$type": "Forguncy.Model.CountLoopInfo, ServerDesignerCommon",
+        "LoopCount": {
+          "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+          "SerializeProperty": "=対象レコード"
+        },
+        "LoopItemParamName": "Item"
+      },
+      "CommandList": [
+        {
+          "$type": "Forguncy.Model.ExportActiveReportCommand, ServerDesignerCommon",
+          "CustomName": "請求書",
+          "ServerExportFileName": {
+            "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+            "SerializeProperty": "=エクスポート用一時フォルダー&\"\\請求書\"&Item.請求CD&\".pdf\""
+          },
+          "ExportReportNameList": [
+            "請求書"
+          ],
+          "PassParameters": [
+            {
+              "SourceValue": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=Item.請求CD"
+              },
+              "TargetParameter": "請求CD"
+            }
+          ],
+          "IsPageBreakBefores": [
+            false
+          ],
+          "ReportGaps": [
+            "0cm"
+          ]
+        },
+        {
+          "$type": "Forguncy.Model.UpdateDataTableCommand, ServerDesignerCommon",
+          "TableName": "請求",
+          "ShowConfirm": false,
+          "ConfirmText": "本当に更新してもよろしいですか？",
+          "RowsToUpdate": 1,
+          "RowsToUpdateCondition": {
+            "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+            "ColumnBindingInfo": {
+              "TableName": "請求",
+              "ColumnName": "請求CD"
+            },
+            "Value": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=Item.請求CD"
+            }
+          },
+          "UpdateValues": [
+            {
+              "ColumnName": "請求書",
+              "Value": {
+                "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                "SerializeProperty": "=エクスポート用一時フォルダー&\"\\請求書\"&Item.請求CD&\".pdf\""
+              }
+            }
+          ]
+        },
+        {
+          "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+          "ConditionAndCommandPairList": [
+            {
+              "Condition": {
+                "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                "param": {
+                  "$type": "Forguncy.Model.IfConditionServerSiteParam, ServerDesignerCommon",
+                  "ParamObject": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=メール送信"
+                  }
+                },
+                "value": "True"
+              },
+              "CommandList": [
+                {
+                  "$type": "Forguncy.Model.SendMailCommand, ServerDesignerCommon",
+                  "From": "example@example.com",
+                  "Subject": "【株式会社方眼紙企画】 請求書送付のご案内",
+                  "Content": "[=Item.会社名]\r\n[=Item.氏名] 様\r\n\r\nいつもお世話になっております。株式会社方眼紙企画の東方です。\r\n\r\nご連絡させていただきました請求書をPDFファイルにて送付いたしますので、\r\nご査収のほどよろしくお願いいたします。\r\n\r\nご不明点や添付ファイルの内容が見れないなど\r\nございましたらご連絡くださいませ。\r\n\r\n-----\r\n【添付内容】\r\n請求書[=Item.請求CD].pdf\r\n\r\n期限内にご質問、お振込の手続き等お済ませいただければと思います。\r\n-----\r\n\r\n今後ともよろしくお願いいたします。",
+                  "EnhancedRecipient": {
+                    "CommonValue": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=Item.メールアドレス"
+                    }
+                  },
+                  "Attachments": {
+                    "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                    "SerializeProperty": "=エクスポート用一時フォルダー&\"\\請求書\"&Item.請求CD&\".pdf\""
+                  },
+                  "SendAsPlainText": true,
+                  "Priority": "high",
+                  "ID": "fdf3f0191eba483cae449a15f5dcc717"
+                }
+              ],
+              "ID": "c5ef80f5-6682-47cb-b392-83aef552d6f0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "$type": "OperateFilesCommand.DeleteFolderCommand, OperateFilesCommand",
+      "FolderPath": {
+        "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+        "SerializeProperty": "=エクスポート用一時フォルダー"
+      }
+    }
+  ],
+  "Name": "対象レコードの請求書を発行"
+}

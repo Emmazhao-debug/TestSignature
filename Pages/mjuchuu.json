@@ -1,0 +1,1232 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "6": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0,
+          "Mode": 2,
+          "MinLength": {
+            "Value": 30.0,
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "7": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "8": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "9": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "10": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "11": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "12": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "13": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "14": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "15": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "16": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "17": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "18": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "19": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0,
+          "Mode": 2,
+          "MinLength": {
+            "Value": 30.0,
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "20": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "21": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "22": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "23": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "24": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "25": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "26": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      }
+    },
+    "Count": 27,
+    "DefaultSize": 30.0
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0,
+          "Mode": 2,
+          "MinLength": {
+            "Value": 30.0,
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0,
+          "Mode": 2,
+          "MinLength": {
+            "Value": 10.0,
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0,
+          "Mode": 2,
+          "MinLength": {
+            "Value": 10.0,
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0,
+          "Mode": 2,
+          "MinLength": {
+            "Value": 10.0,
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0,
+          "Mode": 2,
+          "MinLength": {
+            "Value": 10.0,
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "6": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0,
+          "Mode": 2,
+          "MinLength": {
+            "Value": 10.0,
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "7": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0,
+          "Mode": 2,
+          "MinLength": {
+            "Value": 10.0,
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "8": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0,
+          "Mode": 2,
+          "MinLength": {
+            "Value": 10.0,
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "9": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0,
+          "Mode": 2,
+          "MinLength": {
+            "Value": 10.0,
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "10": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0,
+          "Mode": 2,
+          "MinLength": {
+            "Value": 10.0,
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "11": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0,
+          "Mode": 2,
+          "MinLength": {
+            "Value": 10.0,
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "12": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0,
+          "Mode": 2,
+          "MinLength": {
+            "Value": 10.0,
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "13": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0,
+          "Mode": 2,
+          "MinLength": {
+            "Value": 10.0,
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "14": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0,
+          "Mode": 2,
+          "MinLength": {
+            "Value": 10.0,
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "15": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0,
+          "Mode": 2,
+          "MinLength": {
+            "Value": 10.0,
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "16": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0,
+          "Mode": 2,
+          "MinLength": {
+            "Value": 10.0,
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "17": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0,
+          "Mode": 2,
+          "MinLength": {
+            "Value": 10.0,
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "18": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0,
+          "Mode": 2,
+          "MinLength": {
+            "Value": 10.0,
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "19": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0,
+          "Mode": 2,
+          "MinLength": {
+            "Value": 10.0,
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "20": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0,
+          "Mode": 2,
+          "MinLength": {
+            "Value": 10.0,
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "21": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0,
+          "Mode": 2,
+          "MinLength": {
+            "Value": 10.0,
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "22": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0,
+          "Mode": 2,
+          "MinLength": {
+            "Value": 10.0,
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "23": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0,
+          "Mode": 2,
+          "MinLength": {
+            "Value": 10.0,
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "24": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0,
+          "Mode": 2,
+          "MinLength": {
+            "Value": 10.0,
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "25": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0,
+          "Mode": 2,
+          "MinLength": {
+            "Value": 10.0,
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "26": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0,
+          "Mode": 2,
+          "MinLength": {
+            "Value": 10.0,
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "27": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0,
+          "Mode": 2,
+          "MinLength": {
+            "Value": 10.0,
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "28": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0,
+          "Mode": 2,
+          "MinLength": {
+            "Value": 10.0,
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "29": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0,
+          "Mode": 2,
+          "MinLength": {
+            "Value": 10.0,
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "30": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0,
+          "Mode": 2,
+          "MinLength": {
+            "Value": 10.0,
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "31": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0,
+          "Mode": 2,
+          "MinLength": {
+            "Value": 10.0,
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "32": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0,
+          "Mode": 2,
+          "MinLength": {
+            "Value": 10.0,
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "33": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0,
+          "Mode": 2,
+          "MinLength": {
+            "Value": 10.0,
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "34": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0,
+          "Mode": 2,
+          "MinLength": {
+            "Value": 10.0,
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "35": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0,
+          "Mode": 2,
+          "MinLength": {
+            "Value": 10.0,
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "36": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0,
+          "Mode": 2,
+          "MinLength": {
+            "Value": 10.0,
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "37": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0,
+          "Mode": 2,
+          "MinLength": {
+            "Value": 10.0,
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "38": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0,
+          "Mode": 2,
+          "MinLength": {
+            "Value": 10.0,
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "39": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0,
+          "Mode": 2,
+          "MinLength": {
+            "Value": 10.0,
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "40": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0,
+          "Mode": 2,
+          "MinLength": {
+            "Value": 10.0,
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "41": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0,
+          "Mode": 2,
+          "MinLength": {
+            "Value": 10.0,
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "42": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0,
+          "Mode": 2,
+          "MinLength": {
+            "Value": 10.0,
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "43": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0,
+          "Mode": 2,
+          "MinLength": {
+            "Value": 10.0,
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      }
+    },
+    "Count": 45,
+    "DefaultSize": 30.0
+  },
+  "Values": {
+    "14,9": "商品名（読み取り専用）"
+  },
+  "AttachInfos": {
+    "1,1": {
+      "ListViewInfo": {
+        "ShowColumnHeaderInDesigner": true,
+        "TableName": "受注",
+        "RowIndex": 1,
+        "ColumnIndex": 1,
+        "ColumnCount": 43,
+        "RowCount": 12,
+        "IsRowHeaderVisible": true,
+        "AllowEditInListview": true,
+        "AllowAddNewRow": true,
+        "ShowDeleteButton": true,
+        "ColumnOperation": 2,
+        "ShowEditStatusIcon": true,
+        "UseSimpleBar": true,
+        "Name": "受注リストビュー",
+        "TopCondition": null,
+        "ListViewStyleName": "_RS_Light2"
+      }
+    },
+    "2,2": {
+      "BindingInfo": {
+        "TableName": "受注",
+        "ColumnName": "受注日"
+      }
+    },
+    "2,6": {
+      "BindingInfo": {
+        "TableName": "受注",
+        "ColumnName": "出荷日"
+      }
+    },
+    "2,10": {
+      "BindingInfo": {
+        "TableName": "受注",
+        "ColumnName": "請求年月"
+      }
+    },
+    "2,14": {
+      "BindingInfo": {
+        "TableName": "受注",
+        "ColumnName": "出荷先名"
+      }
+    },
+    "2,21": {
+      "BindingInfo": {
+        "TableName": "受注",
+        "ColumnName": "出荷先都道府県"
+      }
+    },
+    "2,24": {
+      "BindingInfo": {
+        "TableName": "受注",
+        "ColumnName": "出荷先住所"
+      }
+    },
+    "2,32": {
+      "BindingInfo": {
+        "TableName": "受注",
+        "ColumnName": "出荷先電話番号"
+      }
+    },
+    "2,36": {
+      "BindingInfo": {
+        "TableName": "受注",
+        "ColumnName": "支払日"
+      }
+    },
+    "2,40": {
+      "BindingInfo": {
+        "TableName": "受注",
+        "ColumnName": "取引先ID"
+      }
+    },
+    "2,42": {
+      "BindingInfo": {
+        "TableName": "受注",
+        "ColumnName": "取引先責任者ID"
+      }
+    },
+    "14,1": {
+      "ListViewInfo": {
+        "ShowColumnHeaderInDesigner": true,
+        "TableName": "受注明細",
+        "RowIndex": 14,
+        "ColumnIndex": 1,
+        "ColumnCount": 43,
+        "RowCount": 12,
+        "IsRowHeaderVisible": true,
+        "AllowEditInListview": true,
+        "AllowAddNewRow": true,
+        "ShowDeleteButton": true,
+        "AllowDragFill": true,
+        "AllowDragMove": true,
+        "ColumnOperation": 2,
+        "ShowEditStatusIcon": true,
+        "UseSimpleBar": true,
+        "Name": "受注明細リストビュー",
+        "DetailListViewInfo": {
+          "MasterTable": "受注",
+          "ColumnOfMasterTable": "ID",
+          "ColumnOfDetailTable": "受注ID",
+          "DataCommitType": 2
+        },
+        "TopCondition": null,
+        "CommitType": 1,
+        "ListViewStyleName": "_RS_Light2"
+      }
+    },
+    "15,3": {
+      "BindingInfo": {
+        "TableName": "受注明細",
+        "ColumnName": "ID"
+      }
+    },
+    "15,6": {
+      "BindingInfo": {
+        "TableName": "受注明細",
+        "ColumnName": "商品ID"
+      }
+    },
+    "15,9": {
+      "BindingInfo": {
+        "TableName": "受注明細",
+        "ColumnName": "商品ID",
+        "RelationBinding": {
+          "RelatedTable": "商品",
+          "RelatedColumn": "ID",
+          "DisplayColumn": "商品名"
+        }
+      }
+    },
+    "15,17": {
+      "BindingInfo": {
+        "TableName": "受注明細",
+        "ColumnName": "数量"
+      }
+    },
+    "15,20": {
+      "BindingInfo": {
+        "TableName": "受注明細",
+        "ColumnName": "単価"
+      }
+    },
+    "15,23": {
+      "BindingInfo": {
+        "TableName": "受注明細",
+        "ColumnName": "割引率"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "Background": 0,
+        "WordWrap": false,
+        "ShrinkToFit": true
+      },
+      {
+        "Background": 0,
+        "FontFamily": 1,
+        "WordWrap": false,
+        "ShrinkToFit": true
+      },
+      {
+        "Background": 0,
+        "FontFamily": 1,
+        "FontSize": 14.666666666666666,
+        "WordWrap": false,
+        "ShrinkToFit": true
+      },
+      {
+        "Formatter": 2,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderRight": null
+      },
+      {
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 1,
+        "Formatter": 2,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 1,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 1
+      },
+      {
+        "Background": 0,
+        "FontFamily": 1,
+        "ShrinkToFit": true
+      },
+      {
+        "FontFamily": 1,
+        "Formatter": 3,
+        "HorizontalAlignment": 4
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Background 1",
+        "Body",
+        "yyyy/MM/dd",
+        "#,##0",
+        "Right"
+      ]
+    },
+    "CellStyles": {
+      "1,2": 0,
+      "1,6": 1,
+      "1,10": 1,
+      "1,14": 1,
+      "1,21": 2,
+      "1,24": 1,
+      "1,32": 1,
+      "1,36": 1,
+      "1,40": 1,
+      "1,42": 2,
+      "2,2": 3,
+      "2,3": 4,
+      "2,4": 4,
+      "2,5": 4,
+      "2,6": 5,
+      "2,7": 4,
+      "2,8": 4,
+      "2,9": 4,
+      "2,10": 5,
+      "2,11": 4,
+      "2,12": 4,
+      "2,13": 4,
+      "2,14": 6,
+      "2,15": 4,
+      "2,16": 4,
+      "2,17": 4,
+      "2,18": 4,
+      "2,19": 4,
+      "2,20": 4,
+      "2,21": 7,
+      "2,24": 6,
+      "2,25": 4,
+      "2,26": 4,
+      "2,27": 4,
+      "2,28": 4,
+      "2,29": 4,
+      "2,30": 4,
+      "2,31": 4,
+      "2,32": 6,
+      "2,33": 4,
+      "2,34": 4,
+      "2,35": 4,
+      "2,36": 5,
+      "2,37": 4,
+      "2,38": 4,
+      "2,39": 4,
+      "2,40": 6,
+      "2,41": 4,
+      "2,42": 6,
+      "2,43": 4,
+      "14,1": 7,
+      "14,2": 7,
+      "14,3": 8,
+      "14,4": 7,
+      "14,5": 7,
+      "14,6": 8,
+      "14,17": 8,
+      "14,20": 8,
+      "14,23": 8,
+      "14,26": 8,
+      "15,1": 7,
+      "15,2": 7,
+      "15,3": 7,
+      "15,4": 7,
+      "15,5": 7,
+      "15,6": 7,
+      "15,9": 7,
+      "15,17": 7,
+      "15,20": 9,
+      "15,23": 7,
+      "16,1": 7,
+      "16,2": 7,
+      "16,3": 7,
+      "16,4": 7,
+      "16,5": 7,
+      "16,6": 7,
+      "16,7": 7,
+      "16,8": 7,
+      "16,9": 7,
+      "16,10": 7,
+      "16,11": 7,
+      "16,12": 7,
+      "16,13": 7,
+      "16,14": 7,
+      "16,15": 7,
+      "16,16": 7,
+      "16,17": 7,
+      "17,1": 7,
+      "17,2": 7,
+      "17,3": 7,
+      "17,4": 7,
+      "17,5": 7,
+      "17,6": 7,
+      "17,7": 7,
+      "17,8": 7,
+      "17,9": 7,
+      "17,10": 7,
+      "17,11": 7,
+      "17,12": 7,
+      "17,13": 7,
+      "17,14": 7,
+      "17,15": 7,
+      "17,16": 7,
+      "17,17": 7,
+      "18,1": 7,
+      "18,2": 7,
+      "18,3": 7,
+      "18,4": 7,
+      "18,5": 7,
+      "18,6": 7,
+      "18,7": 7,
+      "18,8": 7,
+      "18,9": 7,
+      "18,10": 7,
+      "18,11": 7,
+      "18,12": 7,
+      "18,13": 7,
+      "18,14": 7,
+      "18,15": 7,
+      "18,16": 7,
+      "18,17": 7,
+      "19,1": 7,
+      "19,2": 7,
+      "19,3": 7,
+      "19,4": 7,
+      "19,5": 7,
+      "19,6": 7,
+      "19,7": 7,
+      "19,8": 7,
+      "19,9": 7,
+      "19,10": 7,
+      "19,11": 7,
+      "19,12": 7,
+      "19,13": 7,
+      "19,14": 7,
+      "19,15": 7,
+      "19,16": 7,
+      "19,17": 7,
+      "20,1": 7,
+      "20,2": 7,
+      "20,3": 7,
+      "20,4": 7,
+      "20,5": 7,
+      "20,6": 7,
+      "20,7": 7,
+      "20,8": 7,
+      "20,9": 7,
+      "20,10": 7,
+      "20,11": 7,
+      "20,12": 7,
+      "20,13": 7,
+      "20,14": 7,
+      "20,15": 7,
+      "20,16": 7,
+      "20,17": 7,
+      "21,1": 7,
+      "21,2": 7,
+      "21,3": 7,
+      "21,4": 7,
+      "21,5": 7,
+      "21,6": 7,
+      "21,7": 7,
+      "21,8": 7,
+      "21,9": 7,
+      "21,10": 7,
+      "21,11": 7,
+      "21,12": 7,
+      "21,13": 7,
+      "21,14": 7,
+      "21,15": 7,
+      "21,16": 7,
+      "21,17": 7,
+      "22,1": 7,
+      "22,2": 7,
+      "22,3": 7,
+      "22,4": 7,
+      "22,5": 7,
+      "22,6": 7,
+      "22,7": 7,
+      "22,8": 7,
+      "22,9": 7,
+      "22,10": 7,
+      "22,11": 7,
+      "22,12": 7,
+      "22,13": 7,
+      "22,14": 7,
+      "22,15": 7,
+      "22,16": 7,
+      "22,17": 7,
+      "23,1": 7,
+      "23,2": 7,
+      "23,3": 7,
+      "23,4": 7,
+      "23,5": 7,
+      "23,6": 7,
+      "23,7": 7,
+      "23,8": 7,
+      "23,9": 7,
+      "23,10": 7,
+      "23,11": 7,
+      "23,12": 7,
+      "23,13": 7,
+      "23,14": 7,
+      "23,15": 7,
+      "23,16": 7,
+      "23,17": 7,
+      "24,1": 7,
+      "24,2": 7,
+      "24,3": 7,
+      "24,4": 7,
+      "24,5": 7,
+      "24,6": 7,
+      "24,7": 7,
+      "24,8": 7,
+      "24,9": 7,
+      "24,10": 7,
+      "24,11": 7,
+      "24,12": 7,
+      "24,13": 7,
+      "24,14": 7,
+      "24,15": 7,
+      "24,16": 7,
+      "24,17": 7,
+      "25,1": 7,
+      "25,2": 7,
+      "25,3": 7,
+      "25,4": 7,
+      "25,5": 7,
+      "25,6": 7,
+      "25,7": 7,
+      "25,8": 7,
+      "25,9": 7,
+      "25,10": 7,
+      "25,11": 7,
+      "25,12": 7,
+      "25,13": 7,
+      "25,14": 7,
+      "25,15": 7,
+      "25,16": 7,
+      "25,17": 7
+    },
+    "SheetStyle": {
+      "FontFamily": 1
+    }
+  },
+  "Spans": [
+    "2,1,1,1",
+    "15,1,1,2",
+    "15,3,1,3",
+    "2,2,1,4",
+    "2,6,1,4",
+    "2,10,1,4",
+    "2,14,1,7",
+    "2,21,1,3",
+    "2,24,1,8",
+    "2,32,1,4",
+    "2,36,1,4",
+    "2,42,1,2",
+    "3,1,10,43",
+    "16,1,10,43",
+    "2,40,1,2",
+    "15,17,1,3",
+    "15,20,1,3",
+    "15,23,1,3",
+    "15,6,1,3",
+    "15,9,1,8",
+    "1,2,1,4",
+    "1,6,1,4",
+    "1,10,1,4",
+    "1,14,1,7",
+    "1,21,1,3",
+    "1,24,1,8",
+    "1,32,1,4",
+    "1,36,1,4",
+    "1,40,1,2",
+    "1,42,1,2",
+    "14,1,1,2",
+    "14,3,1,3",
+    "14,6,1,3",
+    "14,9,1,8",
+    "14,17,1,3",
+    "14,20,1,3",
+    "14,23,1,3"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "MasterPageName": "汎用マスターページ",
+    "Title": "マスタ管理：受注と受注明細 - 請求書発行",
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
+  },
+  "PrintInfo": {
+    "Margin": {},
+    "PaperSize": {}
+  }
+}//YAGoyPLlXe7woYSDHGGP1nSoSPhQgx/YDmJybjYp/2zTwHIbHB7R0H7alxmoDsN5vRXhEFQwKKijvd3mOL387rxZ9i3JOHKJpeUhGhOsW5L4X5+ufXJ2rYDKLTZ92rJUHdwaWXMuNlIGRC2bzTcw3HPmWFakiG0yUA4hjMECPtpUlWiXGjalTw1NXs3YESIVwxpAMLEiYjZCqod445dZxsckl4+HUKnpSytwjis4gdrXCSdER8lhNRPmNTI3RHceB9azCw3aiI5HV7SmYKsfE1O7LjDNaYjXAfD2q+2/mzDf7pQZgCAod82xTzKrmMogmevefWC9VKOWLF3/AxzvvTCrD66zHZtlR6bRt+NU2MmIe9JUh9cL8JY5knLmvWv40Ctwzgkhf0R9TWDvFZbQ8KPZuK8HUBEZyaisnLlAZSrrogXsvenbH9ZtvTXRksVvTeSnuosOumQ2tB63yBdFmXbzSs7APSogDZ4TzA4FhPAkOScLPcQNgKKBoMJkwfo98q46NQ/qr4t1G3YsGiS6KaGKTTS2x4Ry5xN4aV7rkuoK+ClmplNLQOOWEWuRPIc+Wu2U+t8T6vhDc3gLbaXp/bSwQWFuqymNqmehSrvPVGj6ZfTQE3+2uA0ub9bd2hwZD+6xNtD+aYJNyu6svykGT0/j9yfNRkyIAxZDS17bvnU6aAhbgK2C0WlJ3l5xGXGDMLtM5CO6ChUni/0m27qmb++IxF4GjJnY4lGH9WVA1VqLL/dZSdK0nB5zna3HyexJAn7PNrqBuWD7TJuDuVMheOsUJknhih0m0jcV5wNetsluGz8lhV0b+UWTMiltwnWKVe9EpLxRje9/YD4Eri4rJJtU0mL991wCETNqU+cBv0GGmJkjp/Xl8HAPcDTkrnFEEMI3pgzwlo9I+EAqUQmvYQ==|920

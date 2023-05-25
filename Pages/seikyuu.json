@@ -1,0 +1,1653 @@
+{
+  "Rows": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "6": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "7": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0,
+          "Mode": 2,
+          "MinLength": {
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "8": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "9": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "10": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "11": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "12": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "13": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "14": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "15": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "16": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      }
+    },
+    "Count": 17,
+    "DefaultSize": 30.0
+  },
+  "Cols": {
+    "RowColumnAttachedInfos": {
+      "0": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "1": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Value": 20.0,
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "2": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 20.0,
+          "Mode": 2,
+          "MinLength": {
+            "Value": 20.0,
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "3": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0,
+          "Mode": 2,
+          "MinLength": {
+            "Value": 30.0,
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "4": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0,
+          "Mode": 2,
+          "MinLength": {
+            "Value": 30.0,
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "5": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0,
+          "Mode": 2,
+          "MinLength": {
+            "Value": 30.0,
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "6": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0,
+          "Mode": 2,
+          "MinLength": {
+            "Value": 30.0,
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "7": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0,
+          "Mode": 2,
+          "MinLength": {
+            "Value": 30.0,
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "8": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0,
+          "Mode": 2,
+          "MinLength": {
+            "Value": 30.0,
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "9": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0,
+          "Mode": 2,
+          "MinLength": {
+            "Value": 30.0,
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "10": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0,
+          "Mode": 2,
+          "MinLength": {
+            "Value": 30.0,
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "11": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0,
+          "Mode": 2,
+          "MinLength": {
+            "Value": 30.0,
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "12": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0,
+          "Mode": 2,
+          "MinLength": {
+            "Value": 30.0,
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "13": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0,
+          "Mode": 2,
+          "MinLength": {
+            "Value": 30.0,
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "14": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0,
+          "Mode": 2,
+          "MinLength": {
+            "Value": 30.0,
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "15": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0,
+          "Mode": 2,
+          "MinLength": {
+            "Value": 30.0,
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "16": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0,
+          "Mode": 2,
+          "MinLength": {
+            "Value": 30.0,
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "17": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0,
+          "Mode": 2,
+          "MinLength": {
+            "Value": 30.0,
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "18": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0,
+          "Mode": 2,
+          "MinLength": {
+            "Value": 10.0,
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "19": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0,
+          "Mode": 2,
+          "MinLength": {
+            "Value": 10.0,
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "20": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0,
+          "Mode": 2,
+          "MinLength": {
+            "Value": 10.0,
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "21": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0,
+          "Mode": 2,
+          "MinLength": {
+            "Value": 10.0,
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "22": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0,
+          "Mode": 2,
+          "MinLength": {
+            "Value": 10.0,
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "23": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0,
+          "Mode": 2,
+          "MinLength": {
+            "Value": 10.0,
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "24": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0,
+          "Mode": 2,
+          "MinLength": {
+            "Value": 10.0,
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "25": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0,
+          "Mode": 2,
+          "MinLength": {
+            "Value": 10.0,
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "26": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0,
+          "Mode": 2,
+          "MinLength": {
+            "Value": 10.0,
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "27": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0,
+          "Mode": 2,
+          "MinLength": {
+            "Value": 10.0,
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "28": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0,
+          "Mode": 2,
+          "MinLength": {
+            "Value": 10.0,
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "29": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0,
+          "Mode": 2,
+          "MinLength": {
+            "Value": 10.0,
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "30": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0,
+          "Mode": 2,
+          "MinLength": {
+            "Value": 10.0,
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "31": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0,
+          "Mode": 2,
+          "MinLength": {
+            "Value": 10.0,
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "32": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0,
+          "Mode": 2,
+          "MinLength": {
+            "Value": 10.0,
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "33": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0,
+          "Mode": 2,
+          "MinLength": {
+            "Value": 10.0,
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "34": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0,
+          "Mode": 2,
+          "MinLength": {
+            "Value": 10.0,
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "35": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0,
+          "Mode": 2,
+          "MinLength": {
+            "Value": 10.0,
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "36": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0,
+          "Mode": 2,
+          "MinLength": {
+            "Value": 10.0,
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "37": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      },
+      "38": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0,
+          "Mode": 2,
+          "MinLength": {
+            "Value": 10.0,
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "39": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0,
+          "Mode": 2,
+          "MinLength": {
+            "Value": 10.0,
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "40": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0,
+          "Mode": 2,
+          "MinLength": {
+            "Value": 10.0,
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "41": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0,
+          "Mode": 2,
+          "MinLength": {
+            "Value": 10.0,
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "42": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0,
+          "Mode": 2,
+          "MinLength": {
+            "Value": 10.0,
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "43": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0,
+          "Mode": 2,
+          "MinLength": {
+            "Value": 30.0,
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "44": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0,
+          "Mode": 2,
+          "MinLength": {
+            "Value": 30.0,
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "45": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0,
+          "Mode": 2,
+          "MinLength": {
+            "Value": 30.0,
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "46": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0,
+          "Mode": 2,
+          "MinLength": {
+            "Value": 30.0,
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "47": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0,
+          "Mode": 2,
+          "MinLength": {
+            "Value": 30.0,
+            "Unit": 1
+          },
+          "MaxLength": {
+            "Value": 1.0
+          }
+        }
+      },
+      "48": {
+        "GridRowColumnDefinition": {
+          "DesignLengthInPixel": 30.0
+        }
+      }
+    },
+    "Count": 49,
+    "DefaultSize": 30.0
+  },
+  "Values": {
+    "1,1": "請求年月：",
+    "1,5": 2020,
+    "1,9": 5,
+    "1,43": "請求データを作成",
+    "3,10": "会社名",
+    "3,18": "担当者名",
+    "3,22": "メールアドレス",
+    "3,31": "請求書確認",
+    "4,31": "請求書",
+    "15,1": "選択した項目の請求書を発行",
+    "15,10": "未発行の請求書すべてを発行"
+  },
+  "AttachInfos": {
+    "1,5": {
+      "CellType": {
+        "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "Items": [
+          {
+            "Value": "2020",
+            "DisplayValue": "2020"
+          },
+          {
+            "Value": "2021",
+            "DisplayValue": "2021"
+          }
+        ],
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.UpdateListviewCommand, ServerDesignerCommon",
+            "UpdateType": 6,
+            "ListviewName": "請求リストビュー",
+            "UpdateListviewCommandRunTimeMethodSetting": {
+              "MethodName": "ClearAllSelectedRows",
+              "ParameterValues": {},
+              "RetrunParamNames": {}
+            }
+          }
+        ],
+        "CellDefaultValue": 2020
+      }
+    },
+    "1,9": {
+      "CellType": {
+        "$type": "Forguncy.DropDownListCellType, ServerDesignerCommon",
+        "MaxDropDownItemCount": 12,
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "Items": [
+          {
+            "Value": "1",
+            "DisplayValue": "1"
+          },
+          {
+            "Value": "2",
+            "DisplayValue": "2"
+          },
+          {
+            "Value": "3",
+            "DisplayValue": "3"
+          },
+          {
+            "Value": "4",
+            "DisplayValue": "4"
+          },
+          {
+            "Value": "5",
+            "DisplayValue": "5"
+          },
+          {
+            "Value": "6",
+            "DisplayValue": "6"
+          },
+          {
+            "Value": "7",
+            "DisplayValue": "7"
+          },
+          {
+            "Value": "8",
+            "DisplayValue": "8"
+          },
+          {
+            "Value": "9",
+            "DisplayValue": "9"
+          },
+          {
+            "Value": "10",
+            "DisplayValue": "10"
+          },
+          {
+            "Value": "11",
+            "DisplayValue": "11"
+          },
+          {
+            "Value": "12",
+            "DisplayValue": "12"
+          }
+        ],
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.UpdateListviewCommand, ServerDesignerCommon",
+            "UpdateType": 6,
+            "ListviewName": "請求リストビュー",
+            "UpdateListviewCommandRunTimeMethodSetting": {
+              "MethodName": "ClearAllSelectedRows",
+              "ParameterValues": {},
+              "RetrunParamNames": {}
+            }
+          }
+        ],
+        "CellDefaultValue": 5
+      }
+    },
+    "1,43": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+            "ParameterName": "対象請求データのレコード数",
+            "TableValue": {
+              "TableName": "請求",
+              "TableValueType": 3,
+              "SqlCondition": {
+                "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                "ColumnBindingInfo": {
+                  "TableName": "請求",
+                  "ColumnName": "請求年月"
+                },
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=DATE(seikyuu!F2,seikyuu!J2,1)"
+                }
+              }
+            },
+            "ID": "d96e12ae68f7404fbb369681fa3efb28"
+          },
+          {
+            "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+            "ConditionAndCommandPairList": [
+              {
+                "Condition": {
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "=seikyuu!対象請求データのレコード数"
+                      }
+                    ]
+                  },
+                  "value": "0",
+                  "compareType": 2
+                },
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+                    "ConditionAndCommandPairList": [
+                      {
+                        "ConfirmDialogSettings": {
+                          "Title": "確認",
+                          "FormulaText": "対象の請求月の請求データはすでに存在します。対象の請求月の請求データをすべて削除し、再作成しますか？\r\n再作成した場合、請求日が今日の日付となることに注意してください。",
+                          "YesButtonText": "はい",
+                          "NoButtonText": "いいえ",
+                          "ConfirmIcon": 1
+                        },
+                        "CommandList": [],
+                        "ID": "2611faf1-d913-42e2-b1d5-2f752d5cf328"
+                      },
+                      {
+                        "CommandList": [
+                          {
+                            "$type": "Forguncy.Model.StopCommand, ServerDesignerCommon"
+                          }
+                        ],
+                        "ID": "f050a960-3215-4533-8210-8a4a02b7e2c4"
+                      }
+                    ]
+                  }
+                ],
+                "ID": "9491ece6-88f1-4790-bc28-3733de34f5ea"
+              }
+            ]
+          },
+          {
+            "$type": "LoadingCommand.StartLoadingCommand, LoadingCommand",
+            "LoadingTextColor": "Background 1 0"
+          },
+          {
+            "$type": "Forguncy.Model.RequestServerCommand, ServerDesignerCommon",
+            "ServerCommandName": "年月を指定して請求データを作成",
+            "Parameters": [
+              {
+                "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=seikyuu!F2"
+                },
+                "ParamName": "請求年"
+              },
+              {
+                "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=seikyuu!J2"
+                },
+                "ParamName": "請求月"
+              }
+            ],
+            "RefreshAfterFinish": true,
+            "CheckDataValidation": true
+          },
+          {
+            "$type": "LoadingCommand.EndLoadingCommand, LoadingCommand"
+          }
+        ],
+        "Text": "請求データを作成",
+        "TemplateKey": "_RS_Normal_Style5"
+      }
+    },
+    "3,1": {
+      "ListViewInfo": {
+        "ShowColumnHeaderInDesigner": true,
+        "TableName": "請求",
+        "RowIndex": 3,
+        "ColumnIndex": 1,
+        "ColumnCount": 36,
+        "RowCount": 9,
+        "IsRowHeaderCheckBoxVisible": true,
+        "ColumnOperation": 2,
+        "ShowGridLine": true,
+        "ShowEditStatusIcon": true,
+        "UseSimpleBar": true,
+        "Name": "請求リストビュー",
+        "SqlCondition": {
+          "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+          "Condition1": {
+            "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+            "ColumnBindingInfo": {
+              "TableName": "請求",
+              "ColumnName": "請求年月",
+              "AttachType": {
+                "$type": "ForguncyDataAccess.DateColumnAttachObj, ForguncyDataAccess",
+                "ColumnAttachType": 1
+              }
+            },
+            "Value": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=seikyuu!F2"
+            }
+          },
+          "Condition2": {
+            "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+            "ColumnBindingInfo": {
+              "TableName": "請求",
+              "ColumnName": "請求年月",
+              "AttachType": {
+                "$type": "ForguncyDataAccess.DateColumnAttachObj, ForguncyDataAccess",
+                "ColumnAttachType": 4
+              }
+            },
+            "Value": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=seikyuu!J2"
+            }
+          }
+        },
+        "TopCondition": null,
+        "ListViewStyleName": "_RS_Light2"
+      }
+    },
+    "3,38": {
+      "ListViewInfo": {
+        "ShowColumnHeaderInDesigner": true,
+        "TableName": "請求明細",
+        "RowIndex": 3,
+        "ColumnIndex": 38,
+        "ColumnCount": 10,
+        "RowCount": 9,
+        "IsTotalRowVisible": true,
+        "ColumnOperation": 2,
+        "ShowEditStatusIcon": true,
+        "UseSimpleBar": true,
+        "Name": "請求明細リストビュー",
+        "DetailListViewInfo": {
+          "MasterTable": "請求",
+          "ColumnOfMasterTable": "請求CD",
+          "ColumnOfDetailTable": "請求CD",
+          "DataCommitType": 2
+        },
+        "TopCondition": null,
+        "CommitType": 1,
+        "ListViewStyleName": "_RS_Light2"
+      }
+    },
+    "4,3": {
+      "BindingInfo": {
+        "TableName": "請求",
+        "ColumnName": "請求CD"
+      },
+      "NameUsedInJavaScript": "請求CD"
+    },
+    "4,7": {
+      "BindingInfo": {
+        "TableName": "請求",
+        "ColumnName": "請求年月"
+      },
+      "NameUsedInJavaScript": "請求年月"
+    },
+    "4,10": {
+      "BindingInfo": {
+        "TableName": "請求",
+        "ColumnName": "請求先会社名"
+      },
+      "NameUsedInJavaScript": "請求先会社名"
+    },
+    "4,18": {
+      "BindingInfo": {
+        "TableName": "請求",
+        "ColumnName": "請求先担当者名"
+      },
+      "NameUsedInJavaScript": "請求先担当者名"
+    },
+    "4,22": {
+      "BindingInfo": {
+        "TableName": "請求",
+        "ColumnName": "請求先メールアドレス"
+      },
+      "NameUsedInJavaScript": "メールアドレス"
+    },
+    "4,31": {
+      "CellType": {
+        "$type": "Forguncy.AttachmentCelltype, ServerDesignerCommon",
+        "UploadLimit": {
+          "ExtensionFilter": ".jpg, .jpeg, .png, .gif, .bmp, .xlsx, .docx, .doc, .xls, .pdf",
+          "MaxUploadFileCount": 1,
+          "ReplaceWhenOneFile": true
+        },
+        "ReadOnly": true
+      },
+      "BindingInfo": {
+        "TableName": "請求",
+        "ColumnName": "請求書"
+      },
+      "NameUsedInJavaScript": "請求書確認"
+    },
+    "4,38": {
+      "TotalRowSetting": {},
+      "BindingInfo": {
+        "TableName": "請求明細",
+        "ColumnName": "商品"
+      },
+      "NameUsedInJavaScript": "請求詳細リストビュー"
+    },
+    "4,45": {
+      "TotalRowSetting": {
+        "FormulaType": 5
+      },
+      "BindingInfo": {
+        "TableName": "請求明細",
+        "ColumnName": "単価"
+      }
+    },
+    "13,1": {
+      "CellType": {
+        "$type": "Forguncy.CheckBoxCellType, ServerDesignerCommon",
+        "Caption": "請求書PDFをメールで送信",
+        "Style": 2,
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ShowMessageCommand, ServerDesignerCommon",
+            "MessageFormula": "本テンプレート内で使用しているメールアドレスはすべて架空のメールアドレスとなっているため、実際にメールを送信することはできません。\r\nデータベース内のメールアドレスをすべて送信可能なメールアドレスへと変更し、メールサーバーの設定を行う必要があります。"
+          },
+          {
+            "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+            "PropertyItemsList": [
+              {
+                "TargetCells": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=seikyuu!B14"
+                },
+                "Value": "False"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "15,1": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "LoadingCommand.StartLoadingCommand, LoadingCommand",
+            "LoadingTextColor": "Background 1 0"
+          },
+          {
+            "$type": "Forguncy.Model.UpdateListviewCommand, ServerDesignerCommon",
+            "UpdateType": 6,
+            "ListviewName": "請求リストビュー",
+            "UpdateListviewCommandRunTimeMethodSetting": {
+              "MethodName": "GetSelectedRows",
+              "ParameterValues": {},
+              "RetrunParamNames": {
+                "SelectedRows": {
+                  "SerializeProperty": "複数選択行"
+                },
+                "SelectedRowCount": {
+                  "SerializeProperty": "選択行の数量"
+                }
+              }
+            }
+          },
+          {
+            "$type": "Forguncy.Model.ShareCommand, ServerDesignerCommon",
+            "ShareCommandContainerRefer": {
+              "ShareCommandContainerID": "b9d57e80-e6d4-4428-990a-d72f3f9c4b93"
+            },
+            "Params": [
+              {
+                "ParamReferObject": {
+                  "ParamID": "10500046-46a0-49d6-9ea8-879a15626f4b",
+                  "ShareCommandContainerReferObject": {
+                    "ShareCommandContainerID": "b9d57e80-e6d4-4428-990a-d72f3f9c4b93"
+                  }
+                },
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=seikyuu!選択行の数量"
+                }
+              },
+              {
+                "ParamReferObject": {
+                  "ParamID": "39868e1b-a23b-4602-9a46-95942e528066",
+                  "ShareCommandContainerReferObject": {
+                    "ShareCommandContainerID": "b9d57e80-e6d4-4428-990a-d72f3f9c4b93"
+                  }
+                },
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=seikyuu!B14"
+                }
+              }
+            ],
+            "ReturnPropertiesTo": []
+          },
+          {
+            "$type": "LoadingCommand.EndLoadingCommand, LoadingCommand"
+          }
+        ],
+        "Text": "選択した項目の請求書を発行",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    },
+    "15,10": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, ServerDesignerCommon",
+        "CommandList": [
+          {
+            "$type": "LoadingCommand.StartLoadingCommand, LoadingCommand",
+            "LoadingTextColor": "Background 1 0"
+          },
+          {
+            "$type": "Forguncy.Model.UpdateListviewCommand, ServerDesignerCommon",
+            "UpdateType": 6,
+            "ListviewName": "請求リストビュー",
+            "UpdateListviewCommandRunTimeMethodSetting": {
+              "MethodName": "ClearAllSelectedRows",
+              "ParameterValues": {},
+              "RetrunParamNames": {}
+            }
+          },
+          {
+            "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+            "ParameterName": "請求リストビュー行番号",
+            "ParameterValue": {
+              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+              "SerializeProperty": "=0"
+            },
+            "ID": "a4fe48879cf44f27a6bfc8c1a3560b08"
+          },
+          {
+            "$type": "Forguncy.Model.LoopCommand, ServerDesignerCommon",
+            "LoopInfo": {
+              "$type": "Forguncy.Model.ListviewKindLoopInfo, ServerDesignerCommon",
+              "ListviewName": "請求リストビュー"
+            },
+            "CommandList": [
+              {
+                "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+                "ConditionAndCommandPairList": [
+                  {
+                    "Condition": {
+                      "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                      "param": {
+                        "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                        "cellLocations": [
+                          {
+                            "SerializeProperty": "=seikyuu!AF5"
+                          }
+                        ]
+                      },
+                      "value": "%Null%"
+                    },
+                    "CommandList": [
+                      {
+                        "$type": "Forguncy.Model.UpdateListviewCommand, ServerDesignerCommon",
+                        "UpdateType": 6,
+                        "ListviewName": "請求リストビュー",
+                        "UpdateListviewCommandRunTimeMethodSetting": {
+                          "MethodName": "AddRowSelection",
+                          "ParameterValues": {
+                            "rowIndex": {
+                              "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                              "SerializeProperty": "=seikyuu!請求リストビュー行番号"
+                            }
+                          },
+                          "RetrunParamNames": {}
+                        }
+                      }
+                    ],
+                    "ID": "a438dd91-519c-4463-9561-16d6bc588b4d"
+                  }
+                ]
+              },
+              {
+                "$type": "Forguncy.Model.Commands.SetParameterCommand, ServerDesignerCommon",
+                "ParameterName": "請求リストビュー行番号",
+                "ParameterValue": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=seikyuu!請求リストビュー行番号+1"
+                },
+                "ID": "7f39067863eb4088ae2dd575a1df8495"
+              }
+            ]
+          },
+          {
+            "$type": "Forguncy.Model.UpdateListviewCommand, ServerDesignerCommon",
+            "UpdateType": 6,
+            "ListviewName": "請求リストビュー",
+            "UpdateListviewCommandRunTimeMethodSetting": {
+              "MethodName": "GetSelectedRows",
+              "ParameterValues": {},
+              "RetrunParamNames": {
+                "SelectedRows": {
+                  "SerializeProperty": "複数選択行"
+                },
+                "SelectedRowCount": {
+                  "SerializeProperty": "選択行の数量"
+                }
+              }
+            }
+          },
+          {
+            "$type": "Forguncy.Model.ShareCommand, ServerDesignerCommon",
+            "ShareCommandContainerRefer": {
+              "ShareCommandContainerID": "b9d57e80-e6d4-4428-990a-d72f3f9c4b93"
+            },
+            "Params": [
+              {
+                "ParamReferObject": {
+                  "ParamID": "10500046-46a0-49d6-9ea8-879a15626f4b",
+                  "ShareCommandContainerReferObject": {
+                    "ShareCommandContainerID": "b9d57e80-e6d4-4428-990a-d72f3f9c4b93"
+                  }
+                },
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=seikyuu!選択行の数量"
+                }
+              },
+              {
+                "ParamReferObject": {
+                  "ParamID": "39868e1b-a23b-4602-9a46-95942e528066",
+                  "ShareCommandContainerReferObject": {
+                    "ShareCommandContainerID": "b9d57e80-e6d4-4428-990a-d72f3f9c4b93"
+                  }
+                },
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=seikyuu!B14"
+                }
+              }
+            ],
+            "ReturnPropertiesTo": []
+          },
+          {
+            "$type": "LoadingCommand.EndLoadingCommand, LoadingCommand"
+          }
+        ],
+        "Text": "未発行の請求書すべてを発行",
+        "TemplateKey": "_RS_Normal_Style2"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontFamily": 0,
+        "HorizontalAlignment": 1
+      },
+      {
+        "FontFamily": 0
+      },
+      {
+        "FontFamily": 0,
+        "Formatter": 2
+      },
+      {
+        "Background": 3,
+        "FontFamily": 0,
+        "ShrinkToFit": true
+      },
+      {
+        "Background": 3,
+        "ShrinkToFit": true
+      },
+      {
+        "FontFamily": 0,
+        "Formatter": 4
+      },
+      {
+        "Foreground": 5,
+        "Underline": true
+      },
+      {
+        "FontFamily": 0,
+        "Formatter": 6,
+        "HorizontalAlignment": 7
+      },
+      {
+        "FontFamily": 0,
+        "HorizontalAlignment": 8
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Body",
+        "Center",
+        "[AUTO]General",
+        "Background 1",
+        "yyyy/MM",
+        "Blue",
+        " ¥#,##0_);[Red] ¥(#,##0)",
+        "Right",
+        "Left"
+      ]
+    },
+    "CellStyles": {
+      "1,1": 0,
+      "1,5": 1,
+      "1,6": 1,
+      "1,7": 1,
+      "1,8": 1,
+      "1,9": 1,
+      "1,10": 1,
+      "1,43": 2,
+      "3,1": 1,
+      "3,2": 1,
+      "3,3": 3,
+      "3,7": 3,
+      "3,10": 4,
+      "3,18": 4,
+      "3,22": 4,
+      "3,31": 4,
+      "3,38": 3,
+      "3,41": 1,
+      "3,42": 1,
+      "3,43": 1,
+      "3,44": 1,
+      "3,45": 3,
+      "3,46": 1,
+      "3,47": 1,
+      "4,1": 1,
+      "4,2": 1,
+      "4,3": 1,
+      "4,7": 5,
+      "4,10": 1,
+      "4,18": 1,
+      "4,22": 1,
+      "4,31": 6,
+      "4,32": 6,
+      "4,33": 6,
+      "4,34": 6,
+      "4,38": 1,
+      "4,39": 1,
+      "4,40": 1,
+      "4,41": 1,
+      "4,42": 1,
+      "4,43": 1,
+      "4,44": 1,
+      "4,45": 7,
+      "4,46": 1,
+      "4,47": 1,
+      "5,1": 1,
+      "5,2": 1,
+      "5,3": 1,
+      "5,4": 1,
+      "5,5": 1,
+      "5,6": 1,
+      "5,7": 1,
+      "5,8": 1,
+      "5,9": 1,
+      "5,10": 1,
+      "5,11": 1,
+      "5,12": 1,
+      "5,13": 1,
+      "5,14": 1,
+      "5,15": 1,
+      "5,38": 1,
+      "5,39": 1,
+      "5,40": 1,
+      "5,41": 1,
+      "5,42": 1,
+      "5,43": 1,
+      "5,44": 1,
+      "5,45": 1,
+      "5,46": 1,
+      "5,47": 1,
+      "6,1": 1,
+      "6,2": 1,
+      "6,3": 1,
+      "6,4": 1,
+      "6,5": 1,
+      "6,6": 1,
+      "6,7": 1,
+      "6,8": 1,
+      "6,9": 1,
+      "6,10": 1,
+      "6,11": 1,
+      "6,12": 1,
+      "6,13": 1,
+      "6,14": 1,
+      "6,15": 1,
+      "6,38": 1,
+      "6,39": 1,
+      "6,40": 1,
+      "6,41": 1,
+      "6,42": 1,
+      "6,43": 1,
+      "6,44": 1,
+      "6,45": 1,
+      "6,46": 1,
+      "6,47": 1,
+      "7,1": 1,
+      "7,2": 1,
+      "7,3": 1,
+      "7,4": 1,
+      "7,5": 1,
+      "7,6": 1,
+      "7,7": 1,
+      "7,8": 1,
+      "7,9": 1,
+      "7,10": 1,
+      "7,11": 1,
+      "7,12": 1,
+      "7,13": 1,
+      "7,14": 1,
+      "7,15": 1,
+      "7,38": 1,
+      "7,39": 1,
+      "7,40": 1,
+      "7,41": 1,
+      "7,42": 1,
+      "7,43": 1,
+      "7,44": 1,
+      "7,45": 1,
+      "7,46": 1,
+      "7,47": 1,
+      "8,1": 1,
+      "8,2": 1,
+      "8,3": 1,
+      "8,4": 1,
+      "8,5": 1,
+      "8,6": 1,
+      "8,7": 1,
+      "8,8": 1,
+      "8,9": 1,
+      "8,10": 1,
+      "8,11": 1,
+      "8,12": 1,
+      "8,13": 1,
+      "8,14": 1,
+      "8,15": 1,
+      "8,38": 1,
+      "8,39": 1,
+      "8,40": 1,
+      "8,41": 1,
+      "8,42": 1,
+      "8,43": 1,
+      "8,44": 1,
+      "8,45": 1,
+      "8,46": 1,
+      "8,47": 1,
+      "9,1": 1,
+      "9,2": 1,
+      "9,3": 1,
+      "9,4": 1,
+      "9,5": 1,
+      "9,6": 1,
+      "9,7": 1,
+      "9,8": 1,
+      "9,9": 1,
+      "9,10": 1,
+      "9,11": 1,
+      "9,12": 1,
+      "9,13": 1,
+      "9,14": 1,
+      "9,15": 1,
+      "9,38": 1,
+      "9,39": 1,
+      "9,40": 1,
+      "9,41": 1,
+      "9,42": 1,
+      "9,43": 1,
+      "9,44": 1,
+      "9,45": 1,
+      "9,46": 1,
+      "9,47": 1,
+      "10,1": 1,
+      "10,2": 1,
+      "10,3": 1,
+      "10,4": 1,
+      "10,5": 1,
+      "10,6": 1,
+      "10,7": 1,
+      "10,8": 1,
+      "10,9": 1,
+      "10,10": 1,
+      "10,11": 1,
+      "10,12": 1,
+      "10,13": 1,
+      "10,14": 1,
+      "10,15": 1,
+      "10,38": 1,
+      "10,39": 1,
+      "10,40": 1,
+      "10,41": 1,
+      "10,42": 1,
+      "10,43": 1,
+      "10,44": 1,
+      "10,45": 1,
+      "10,46": 1,
+      "10,47": 1,
+      "11,1": 1,
+      "11,2": 1,
+      "11,3": 1,
+      "11,4": 1,
+      "11,5": 1,
+      "11,6": 1,
+      "11,7": 1,
+      "11,8": 1,
+      "11,9": 1,
+      "11,10": 1,
+      "11,11": 1,
+      "11,12": 1,
+      "11,13": 1,
+      "11,14": 1,
+      "11,15": 1,
+      "11,38": 1,
+      "11,39": 1,
+      "11,40": 1,
+      "11,41": 1,
+      "11,42": 1,
+      "11,43": 1,
+      "11,44": 1,
+      "11,45": 1,
+      "11,46": 1,
+      "11,47": 1,
+      "13,1": 8,
+      "15,1": 1,
+      "15,2": 1,
+      "15,3": 1,
+      "15,4": 1,
+      "15,5": 1,
+      "15,6": 1,
+      "15,7": 1,
+      "15,8": 1,
+      "15,9": 1,
+      "15,10": 1,
+      "15,18": 1,
+      "15,30": 1,
+      "15,31": 1,
+      "15,32": 1,
+      "15,33": 1,
+      "15,34": 1,
+      "15,35": 1,
+      "15,36": 1
+    },
+    "SheetStyle": {
+      "FontFamily": 0
+    }
+  },
+  "Spans": [
+    "4,1,1,2",
+    "15,1,1,8",
+    "4,38,1,7",
+    "4,45,1,3",
+    "5,1,7,36",
+    "5,38,7,10",
+    "4,31,1,6",
+    "13,1,1,8",
+    "4,3,1,4",
+    "4,7,1,3",
+    "4,10,1,8",
+    "4,22,1,9",
+    "4,18,1,4",
+    "1,5,1,3",
+    "1,9,1,2",
+    "1,1,1,4",
+    "1,43,1,5",
+    "15,10,1,7",
+    "3,1,1,2",
+    "3,3,1,4",
+    "3,7,1,3",
+    "3,10,1,8",
+    "3,18,1,4",
+    "3,22,1,9",
+    "3,31,1,6",
+    "3,38,1,7",
+    "3,45,1,3"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
+    "MasterPageName": "汎用マスターページ",
+    "Title": "請求書発行 - 請求書発行",
+    "RowBreakLines": [],
+    "RepeatRangeSettings": [],
+    "RelatedDataTableName": "請求"
+  },
+  "PrintInfo": {
+    "Margin": {},
+    "PaperSize": {}
+  }
+}//D4TcsiLzLukHqTH2V4Fy6nmUtkY2SOPRP1OwlbSb7+AwAgNAplxlKcCIumJJmNT2iahASaRby3GH2RZp/wmz1DXBSdDfu88vhamL9hQ0WOwr2WXAaOSydVOXEWwmkAU2dSowmLgmPCdTFtgFfm4AcCfoinjn4i70imQXX8VPocWO0C4IFVc0jq8VeCbN78EkTs5Fx29NLW6VGqnDxq154pllpB2QnrxH0MPKrJATz1YCkTyJoD9zaqM/SeIsmaeD5f7Gi5kkEaqRPA8DdCAUAgtS6ROkDXY/+SQ3hO5BIseSvVI3uMv6tqzspR4q1n7SfgOcd38jdCMmsoeBkUXy72/pcMVlcbTbJruKI/G87Z23XvUJzZYsA++bHIgUg7iwupFDTzO1Gi/BwbCi0A6+zI+kiPfPl1fb7loc6MzU57yx+Wbi3OcmVzICH+rJYuO6qR489cC9lZelIFiiaZRFSQT1e6E8PHucjBcKTzojPezHz8WBbR/cOYJYwYzIQdOpNY+9acc/b2fmD3JkGSpTeffIcHR7iXuXiWJE63LYls06S8X0pwldbxPoj81SeFQdKoOKOSLbvWVJOSUU6APLRZbAK4E91tkKUg8UaKogEeg2X9t5E5tega/55Gp4H3GXdT//w9J04VbJa2ljo/Fxd0i5oNAu40iLSG2hmSPqCJw1ABkb5yqxo37rRcFXfGxD4uM1XriZwjfEBC2tzNPhOwIDPbEe/nUpiXY+aq1U9F7wS61xudMzvX8LOOsD9FvErA5B+0B0nnpg8speeI5z1rcnMlXWDOgwKQqKbMZyxEf6gC0cBmcHkLU2qThTstGSPg198zPaqCBQhbrLAQuaSXQ0Q0g910x1xv/m5Z9R+rccrH6B159atPbKvw9tgTXnmGZ+Vnc+oiSyePLgkf56Mw==|920

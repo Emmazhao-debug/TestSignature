@@ -1,0 +1,19 @@
+{
+  "IntegrateWithOtherApplication": {
+    "Password": "bBfQGlVqLvZy"
+  },
+  "LoadingIndicatorSettings": {
+    "CSSLoading": 9
+  },
+  "IsPageInContainerBackgroundHardCodeWhite": true,
+  "WebSitePort": 42963,
+  "UserServicePort": 26479,
+  "NotAllowModifyDatabaseByJsApi": false,
+  "StartPage": "about",
+  "StartDateFiscalYear": 4,
+  "MaxRowCount": 10000000,
+  "AuditingList": {
+    "請求": 0,
+    "請求明細": 0
+  }
+}

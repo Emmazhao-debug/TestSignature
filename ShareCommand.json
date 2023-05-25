@@ -1,0 +1,202 @@
+[
+  {
+    "ID": "b9d57e80-e6d4-4428-990a-d72f3f9c4b93",
+    "Name": "選択行が1つ以上存在するかどうかの確認",
+    "Params": [
+      {
+        "ID": "10500046-46a0-49d6-9ea8-879a15626f4b",
+        "Name": "選択行の数量"
+      },
+      {
+        "ID": "39868e1b-a23b-4602-9a46-95942e528066",
+        "Name": "メール送信"
+      }
+    ],
+    "Commands": [
+      {
+        "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+        "ConditionAndCommandPairList": [
+          {
+            "Condition": {
+              "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+              "param": {
+                "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                "cellLocations": [
+                  {
+                    "SerializeProperty": "=選択行の数量"
+                  }
+                ]
+              },
+              "value": "0",
+              "compareType": 5
+            },
+            "CommandList": [
+              {
+                "$type": "Forguncy.Model.ShowMessageCommand, ServerDesignerCommon",
+                "MessageFormula": "発行対象の請求書がありません。"
+              }
+            ],
+            "ID": "195c70e1-1c72-4a53-a4ae-2d76d858f6c6"
+          },
+          {
+            "CommandList": [
+              {
+                "$type": "Forguncy.Model.RequestServerCommand, ServerDesignerCommon",
+                "ServerCommandName": "対象レコードの請求書を発行",
+                "Parameters": [
+                  {
+                    "$type": "Forguncy.Model.RequestServerCommandListviewParam, ServerDesignerCommon",
+                    "ListviewName": "請求リストビュー",
+                    "Columns": [
+                      {
+                        "ArrayItemName": "請求CD",
+                        "Column": "請求CD"
+                      },
+                      {
+                        "ArrayItemName": "会社名",
+                        "Column": "請求先会社名"
+                      },
+                      {
+                        "ArrayItemName": "氏名",
+                        "Column": "請求先担当者名"
+                      },
+                      {
+                        "ArrayItemName": "メールアドレス",
+                        "Column": "メールアドレス"
+                      }
+                    ],
+                    "Scope": 1,
+                    "ParamName": "対象レコード"
+                  },
+                  {
+                    "$type": "Forguncy.Model.RequestServerCommandObjectParam, ServerDesignerCommon",
+                    "Value": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=メール送信"
+                    },
+                    "ParamName": "メール送信"
+                  }
+                ],
+                "RefreshAfterFinish": true,
+                "CheckDataValidation": true
+              },
+              {
+                "$type": "Forguncy.Model.ShowMessageCommand, ServerDesignerCommon",
+                "MessageFormula": {
+                  "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                  "SerializeProperty": "=選択行の数量&\"件の請求書を発行しました。\""
+                }
+              }
+            ],
+            "ID": "72b2be49-2a46-4242-b6f6-539a8d02d89f"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "ID": "ba62568e-467c-443f-9bf0-f77461b50791",
+    "Name": "メニューの切り替え処理",
+    "Params": [
+      {
+        "ID": "3bbec458-338c-4eb9-aa45-e551d7638da3",
+        "Name": "フルサイズ"
+      },
+      {
+        "ID": "f29ce7ef-a82c-47fe-ad5c-242d09944fdb",
+        "Name": "省スペース"
+      }
+    ],
+    "Commands": [
+      {
+        "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+        "ConditionAndCommandPairList": [
+          {
+            "Condition": {
+              "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+              "param": {
+                "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                "cellLocations": [
+                  {
+                    "SerializeProperty": "=c_viewportwidth"
+                  }
+                ]
+              },
+              "value": "1690",
+              "compareType": 5
+            },
+            "CommandList": [
+              {
+                "$type": "Forguncy.Model.SetRowColumnLayoutCommand, ServerDesignerCommon",
+                "PropertyItemsList": [
+                  {
+                    "Location": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=フルサイズ"
+                    },
+                    "Value": false
+                  },
+                  {
+                    "Location": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=省スペース"
+                    },
+                    "Value": true
+                  }
+                ]
+              },
+              {
+                "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+                "PropertyItemsList": [
+                  {
+                    "TargetCells": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=c_title"
+                    },
+                    "Value": "請求書発行"
+                  }
+                ]
+              }
+            ],
+            "ID": "04dc91a7-3c83-436e-9e76-2867c8d8104a"
+          },
+          {
+            "CommandList": [
+              {
+                "$type": "Forguncy.Model.SetRowColumnLayoutCommand, ServerDesignerCommon",
+                "PropertyItemsList": [
+                  {
+                    "Location": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=省スペース"
+                    },
+                    "Value": false
+                  },
+                  {
+                    "Location": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=フルサイズ"
+                    },
+                    "Value": true
+                  }
+                ]
+              },
+              {
+                "$type": "Forguncy.Model.SetCellPropertyCommand, ServerDesignerCommon",
+                "PropertyItemsList": [
+                  {
+                    "TargetCells": {
+                      "$type": "Forguncy.Model.FormulaReferObject, ServerDesignerCommon",
+                      "SerializeProperty": "=c_title"
+                    }
+                  }
+                ]
+              }
+            ],
+            "ID": "fc9d5d69-c2b8-48e7-8f42-230b2153d80b"
+          }
+        ]
+      }
+    ]
+  }
+]
